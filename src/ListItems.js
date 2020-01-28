@@ -7,10 +7,12 @@ function ListItems(props){
     const listItems = items.map(item =>{
         return(
             <div className='list' key={item.key}>
-                <p>{item.text}</p>
+                <p>{item.text}
                 <span>
-                    <FontAwesomeIcon className="icon" icon="trash"/>
+                    <FontAwesomeIcon className="icon" icon="trash"
+                    onClick={() => props.deleteItem(item.key)}/>
                 </span>
+                </p>
             </div>
         )
     })
