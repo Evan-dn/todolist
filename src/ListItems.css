@@ -1,0 +1,12 @@
+.list{
+    color: #ffff;
+    width: 300px;
+    background-color: #6A8CAF;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 4px;
+}
+.list p{
+    padding: 10px;
+    
+}
