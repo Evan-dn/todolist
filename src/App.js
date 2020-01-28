@@ -29,8 +29,18 @@ class App extends React.Component{
   addItem = (e) =>{
     e.preventDefault();
     const newItem = this.state.currentItem;
-    console.log(newItem);
-
+    // console.log("newItem vaut : "newItem);
+    if(newItem.text !==""){
+      const newItems=[...this.state.items, newItem];
+      this.setState({
+        items: newItems,
+        currentItem:{
+          text: '',
+          key: ''
+        }
+      })
+    }
+    console.log("items vaut : ", this.state.items);
   }
 
   render(){
