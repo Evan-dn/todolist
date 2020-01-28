@@ -37,3 +37,7 @@ body{
   font-weight: bolder;
   color: #655C56;
 }
+
+#to-do-form button:focus{
+  outline: none;
+}

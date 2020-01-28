@@ -51,7 +51,18 @@ class App extends React.Component{
     this.setState({
       items: filteredItems
     })
+  }
 
+  setUpdate = (text, key) =>{
+    const updateItems = this.state.items;
+    updateItems.map(updateItem =>{
+      if(updateItem.key === key){
+        updateItem.text = text;
+      }
+    })
+    this.setState({
+      items: updateItems
+    })
   }
 
   render(){
@@ -65,7 +76,9 @@ class App extends React.Component{
             <button type="submit">Add</button>
           </form>
         </header>
-        <ListItems items={this.state.items} deleteItem={this.deleteItem}/>
+        <ListItems items={this.state.items}
+        deleteItem={this.deleteItem}
+        setUpdate={this.setUpdate}/>
       </div>
     );
   }

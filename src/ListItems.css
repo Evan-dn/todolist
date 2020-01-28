@@ -1,6 +1,6 @@
 .list{
     color: #ffff;
-    width: 300px;
+    width: 320px;
     background-color: #6A8CAF;
     height: 50px;
     margin: 20px auto;
@@ -11,11 +11,20 @@
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .list p span{
     cursor: pointer;
 }
 .icon{
-    margin: O 5px;
     font-size: 15px;
+}
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: #ffff;
+    font-size: 18px;
+}
+.list p input:focus{
+    outline: none;
 }
