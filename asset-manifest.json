@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Evan-dn.github.io/todolist/static/css/main.207d221c.chunk.css",
-    "main.js": "/Evan-dn.github.io/todolist/static/js/main.78ee6450.chunk.js",
-    "main.js.map": "/Evan-dn.github.io/todolist/static/js/main.78ee6450.chunk.js.map",
-    "runtime-main.js": "/Evan-dn.github.io/todolist/static/js/runtime-main.2511af4e.js",
-    "runtime-main.js.map": "/Evan-dn.github.io/todolist/static/js/runtime-main.2511af4e.js.map",
-    "static/js/2.36bb8f0e.chunk.js": "/Evan-dn.github.io/todolist/static/js/2.36bb8f0e.chunk.js",
-    "static/js/2.36bb8f0e.chunk.js.map": "/Evan-dn.github.io/todolist/static/js/2.36bb8f0e.chunk.js.map",
-    "index.html": "/Evan-dn.github.io/todolist/index.html",
-    "precache-manifest.cbc26c8439f7a9a813e40da4c2eb2c2d.js": "/Evan-dn.github.io/todolist/precache-manifest.cbc26c8439f7a9a813e40da4c2eb2c2d.js",
-    "service-worker.js": "/Evan-dn.github.io/todolist/service-worker.js",
-    "static/css/main.207d221c.chunk.css.map": "/Evan-dn.github.io/todolist/static/css/main.207d221c.chunk.css.map",
-    "static/js/2.36bb8f0e.chunk.js.LICENSE": "/Evan-dn.github.io/todolist/static/js/2.36bb8f0e.chunk.js.LICENSE"
+    "main.css": "/todolist/static/css/main.207d221c.chunk.css",
+    "main.js": "/todolist/static/js/main.705e1afa.chunk.js",
+    "main.js.map": "/todolist/static/js/main.705e1afa.chunk.js.map",
+    "runtime-main.js": "/todolist/static/js/runtime-main.6fa7f924.js",
+    "runtime-main.js.map": "/todolist/static/js/runtime-main.6fa7f924.js.map",
+    "static/js/2.36bb8f0e.chunk.js": "/todolist/static/js/2.36bb8f0e.chunk.js",
+    "static/js/2.36bb8f0e.chunk.js.map": "/todolist/static/js/2.36bb8f0e.chunk.js.map",
+    "index.html": "/todolist/index.html",
+    "precache-manifest.63c8d2f51926e7a9a74e115d37abe887.js": "/todolist/precache-manifest.63c8d2f51926e7a9a74e115d37abe887.js",
+    "service-worker.js": "/todolist/service-worker.js",
+    "static/css/main.207d221c.chunk.css.map": "/todolist/static/css/main.207d221c.chunk.css.map",
+    "static/js/2.36bb8f0e.chunk.js.LICENSE": "/todolist/static/js/2.36bb8f0e.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.2511af4e.js",
+    "static/js/runtime-main.6fa7f924.js",
     "static/js/2.36bb8f0e.chunk.js",
     "static/css/main.207d221c.chunk.css",
-    "static/js/main.78ee6450.chunk.js"
+    "static/js/main.705e1afa.chunk.js"
   ]
 }
